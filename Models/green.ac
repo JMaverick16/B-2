@@ -7,7 +7,7 @@ OBJECT poly
 name "Hull.001X1"
 data 13
 Hull.001Xmesh
-texture "green.rgb"
+texture "green.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -33,7 +33,7 @@ OBJECT poly
 name "Hull.001X0"
 data 13
 Hull.001Xmesh
-texture "green.rgb"
+texture "green.png"
 texrep 1 1
 crease 30
 numvert 4

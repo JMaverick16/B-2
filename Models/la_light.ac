@@ -7,7 +7,7 @@ OBJECT poly
 name "la_light_sX5"
 data 15
 la_light_sXmesh
-texture "la_light.rgb"
+texture "la_light.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -33,7 +33,7 @@ OBJECT poly
 name "la_light_sX4"
 data 15
 la_light_sXmesh
-texture "la_light.rgb"
+texture "la_light.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -59,7 +59,7 @@ OBJECT poly
 name "la_light_sX1"
 data 15
 la_light_sXmesh
-texture "la_light.rgb"
+texture "la_light.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -85,7 +85,7 @@ OBJECT poly
 name "la_light_sX0"
 data 15
 la_light_sXmesh
-texture "la_light.rgb"
+texture "la_light.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -111,7 +111,7 @@ OBJECT poly
 name "la_light_sX3"
 data 15
 la_light_sXmesh
-texture "la_light.rgb"
+texture "la_light.png"
 texrep 1 1
 crease 30
 numvert 4
@@ -137,7 +137,7 @@ OBJECT poly
 name "la_light_sX2"
 data 15
 la_light_sXmesh
-texture "la_light.rgb"
+texture "la_light.png"
 texrep 1 1
 crease 30
 numvert 4

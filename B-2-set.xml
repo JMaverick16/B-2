@@ -118,7 +118,7 @@ B-2 set file.
     </hud>-->
 
     <model>
-      <path>Aircraft/B-2/Models/b2-spirit.xml</path>
+      <path>Aircraft/B-2/Models/B-2A.xml</path>
          <doors>
 		 <bombbay/>
 		 <fuelhatch/>
