@@ -14,9 +14,17 @@ B-2 set file.
       <splash-texture>Aircraft/B-2/spirit.rgb</splash-texture>
     </startup>
 
+  <previews>
+            <preview>
+                <type>exterior</type>
+                <splash type="bool">true</splash>
+                <path>Aircraft/B-2/spirit.rgb</path>
+            </preview>
+  </previews>
+
     <flight-model>yasim</flight-model>
     <status>alpha</status>
-    <author>Markus Zojer</author>
+    <author>Markus Zojer, J Maverick 16</author>
     <aero>B-2-yasim</aero>
     <fuel-fraction>1.0</fuel-fraction>
 
@@ -362,6 +370,9 @@ B-2 set file.
 		<file>Aircraft/B-2/Nasal/b2.nas</file>
 		<script>init_delay();</script>
 	</b2>
+  <aar>
+    <file>Aircraft/Generic/aar.nas</file>
+  </aar>
 	<!--<b2-fuel>
 		<module>fuel</module>
 		<file>Aircraft/B-2/Nasal/AAR.nas</file>
