@@ -8,9 +8,9 @@
 <!-- engine0 -->
 <engine>
 	<name>engine0</name>
-	<path>Sounds/jet.wav</path>
+	<path>Aircraft/B-2/Sounds/jet.wav</path>
 	<mode>looped</mode>
-	<property>/engines/engine[0]/running</property>
+	<property>/engines/engine/running</property>
 
 	<orientation>
 		<x>-9.0</x>
@@ -21,12 +21,70 @@
 		<outer-gain>0.2</outer-gain>
 	</orientation>
 	<volume>
-		<property>/engines/engine[0]/thrust_lb</property>
+		<property>/engines/engine/thrust_lb</property>
 		<factor>0.000019</factor>
 	</volume>
 </engine>
 
+<engine>
+  <name>engine1</name>
+  <path>Aircraft/B-2/Sounds/jet.wav</path>
+  <mode>looped</mode>
+  <property>/engines/engine[1]/running</property>
 
+  <orientation>
+    <x>-9.0</x>
+    <y>0.0</y>
+    <z>180.0</z>
+    <inner-angle>180.0</inner-angle>
+    <outer-angle>360.0</outer-angle>
+    <outer-gain>0.2</outer-gain>
+  </orientation>
+  <volume>
+    <property>/engines/engine[1]/thrust_lb</property>
+    <factor>0.000019</factor>
+  </volume>
+</engine>
+
+<engine>
+  <name>engine2</name>
+  <path>Aircraft/B-2/Sounds/jet.wav</path>
+  <mode>looped</mode>
+  <property>/engines/engine[2]/running</property>
+
+  <orientation>
+    <x>-9.0</x>
+    <y>0.0</y>
+    <z>180.0</z>
+    <inner-angle>180.0</inner-angle>
+    <outer-angle>360.0</outer-angle>
+    <outer-gain>0.2</outer-gain>
+  </orientation>
+  <volume>
+    <property>/engines/engine[2]/thrust_lb</property>
+    <factor>0.000019</factor>
+  </volume>
+</engine>
+
+<engine>
+  <name>engine3</name>
+  <path>Aircraft/B-2/Sounds/jet.wav</path>
+  <mode>looped</mode>
+  <property>/engines/engine[3]/running</property>
+
+  <orientation>
+    <x>-9.0</x>
+    <y>0.0</y>
+    <z>180.0</z>
+    <inner-angle>180.0</inner-angle>
+    <outer-angle>360.0</outer-angle>
+    <outer-gain>0.2</outer-gain>
+  </orientation>
+  <volume>
+    <property>/engines/engine[3]/thrust_lb</property>
+    <factor>0.000019</factor>
+  </volume>
+</engine>
 
 <engine>
 	<name>external whine0</name>

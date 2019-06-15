@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 ************************************************************************
 B-2 set file.
@@ -7,28 +7,37 @@ B-2 set file.
 ************************************************************************
 -->
 
-<PropertyList>
+<PropertyList include="Aircraft/Generic/Human/Include/walker-include.xml">
   <sim>
-
+    <aircraft-version>3.14</aircraft-version>
+    <minimum-fg-version>2018.1.1</minimum-fg-version>
+  <description>Northrop Grumman B-2A Spirit</description>
+  <long-description>
+   The Northrop (later Northrop Grumman) B-2 Spirit, also known as the Stealth Bomber, is an American heavy strategic bomber, featuring low observable stealth technology designed for penetrating dense anti-aircraft defenses; it is a flying wing design with a crew of two. The B-2 is capable of all-altitude attack missions up to 50,000 feet (15,000 m), with a range of more than 6,000 nautical miles (6,900 mi; 11,000 km) on internal fuel and over 10,000 nautical miles (12,000 mi; 19,000 km) with one midair refueling. It entered service in 1997 as the second aircraft designed to have advanced stealth technology after the Lockheed F-117 Nighthawk attack aircraft.
+  </long-description>
+  <author>Markus Zojer, J Maverick 16</author>
+  <status>alpha</status>
+  <rating>
+    <FDM type="int">2</FDM>
+    <systems type="int">1</systems>
+    <cockpit type="int">1</cockpit>
+    <model type="int">3</model>
+  </rating>
     <startup>
-      <splash-texture>Aircraft/B-2/spirit.rgb</splash-texture>
+      <splash-texture>Aircraft/B-2/splash.png</splash-texture>
     </startup>
 
   <previews>
             <preview>
                 <type>exterior</type>
                 <splash type="bool">true</splash>
-                <path>Aircraft/B-2/spirit.rgb</path>
+                <path>spirit.png</path>
             </preview>
   </previews>
 
     <flight-model>yasim</flight-model>
-    <status>alpha</status>
-    <author>Markus Zojer, J Maverick 16</author>
     <aero>B-2-yasim</aero>
     <fuel-fraction>1.0</fuel-fraction>
-
-    <description>Northrop B-2 Spirit</description>
 
     <tags>
 	<tag>bomber</tag>
