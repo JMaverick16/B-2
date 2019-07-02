@@ -149,7 +149,7 @@
   
   <engine>
 	  <name>engine3</name>
-	  <path>Sounds/jet.wav</path>
+	  <path>Aircraft/B-2/Sounds/jet.wav</path>
 	  <mode>looped</mode>
 	  <property>/engines/engine[3]/running</property>
 
