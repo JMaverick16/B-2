@@ -117,24 +117,24 @@
 
 <!-- left wing engines original - tsfc=0.67, but recalculated to meet range/fuel load data (>6000nm/160000lb) -->
 
-<jet x="-9.3" y="4.3" z="0.9" mass="3200" tsfc="0.44" thrust="19000">
+<jet x="-9.3" y="4.3" z="0.9" mass="3200" tsfc="0.44" thrust="19300">
 	<actionpt x="-13.1" y="4.3" z="0.1"/>
 	<control-input axis="/controls/engines/engine[0]/throttle" control="THROTTLE"/>
 </jet>
 
-<jet x="-9.3" y="3" z="0.9" mass="3200" tsfc="0.44" thrust="19000">
+<jet x="-9.3" y="3" z="0.9" mass="3200" tsfc="0.44" thrust="19300">
 	<actionpt x="-13.1" y="3" z="0.1"/>
 	<control-input axis="/controls/engines/engine[1]/throttle" control="THROTTLE"/>
 </jet>
 
 <!-- right wing engines -->
 
-<jet x="-9.3" y="-3" z="0.9" mass="3200" tsfc="0.44" thrust="19000">
+<jet x="-9.3" y="-3" z="0.9" mass="3200" tsfc="0.44" thrust="19300">
 	<actionpt x="-13.1" y="-3" z="0.1"/>
 	<control-input axis="/controls/engines/engine[2]/throttle" control="THROTTLE"/>
 </jet>
 
-<jet x="-9.3" y="-4.3" z="0.9" mass="3200" tsfc="0.44" thrust="19000">
+<jet x="-9.3" y="-4.3" z="0.9" mass="3200" tsfc="0.44" thrust="19300">
 	<actionpt x="-13.1" y="-4.3" z="0.1"/>
 	<control-input axis="/controls/engines/engine[3]/throttle" control="THROTTLE"/>
   </jet>
